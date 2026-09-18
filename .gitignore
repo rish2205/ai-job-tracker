@@ -1,0 +1,68 @@
+# =========================
+# Spring Boot / Maven
+# =========================
+HELP.md
+target/
+backend/target/
+.mvn/wrapper/maven-wrapper.jar
+
+# =========================
+# Frontend / Node
+# =========================
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+*.env
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# IntelliJ IDEA
+# =========================
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# =========================
+# Eclipse / STS
+# =========================
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# =========================
+# NetBeans
+# =========================
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
